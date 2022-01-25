@@ -10,6 +10,11 @@
 # Programmatically combine the two arrays into a single list,
 # sort the result (alphabetically), and write it to the screen.
 # If the two lists contain the same item, only show it once!
+friends_list=["beer", "cookies", "apples", "eggs"]
+my_list=["milk", "eggs", "bacon"]
+combined_list=friends_list+my_list
+combined_list=combined_list.sort.uniq
+puts combined_list
 
 # HINTS
 # Learn to read the documentation!

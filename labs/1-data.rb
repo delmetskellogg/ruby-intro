@@ -9,7 +9,20 @@
 # dice. Set two variables, with names that make sense,
 # then write them out to the screen. Show the total
 # as well.
+#set die values
+die1=rand(1..6)
+die2=rand(1..6)
+total =die1 + die2
 
+#create text strings
+text1="The first die is: #{die1} "
+text2="The second die is: #{die2}"
+total_text="The total is: #{total}"
+
+#write them to screen
+puts text1
+puts text2
+puts total_text
 # HINTS
 # Get a random number between 1 and 6 by doing:
 # rand(1..6)
